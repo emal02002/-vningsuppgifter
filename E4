@@ -1,0 +1,20 @@
+using System;
+
+namespace E4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Skriv in priset");
+            int pris = int.Parse(Console.ReadLine());
+            if (pris > 500)
+            {
+                Console.WriteLine("rabbaten är :");
+                Console.WriteLine(pris * 0.1);
+            }
+            else if 
+
+        }
+    }
+}
